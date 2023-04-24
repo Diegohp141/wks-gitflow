@@ -15,9 +15,9 @@ const columns = [
     key: 'climate',
   },
   {
-    title: 'Population',
-    dataIndex: 'population',
-    key: 'population',
+    title: 'Manufacturer',
+    dataIndex: 'manufacturer',
+    key: 'manufacturer',
     render: (population: string) =>
       parseInt(population)
         ? parseInt(population).toLocaleString('es-AR')
